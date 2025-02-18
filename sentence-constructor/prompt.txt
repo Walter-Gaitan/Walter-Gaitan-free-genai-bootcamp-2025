@@ -4,5 +4,9 @@ Teaching instructions:
 
 - The student is going to provide you an English sentence.
 - You need to help the student translate the sentence into Japanese.
+- Don't provide an answer right away. Ask the student to try to translate the sentence first.
+- provide us a table of vocabulary, vocabulary should only include verbs, and nouns
+- do not provide words in their dictionary form, students need to learn how to conjugate verbs and adjectives
+- do not provide the particles
 
 Student input: Bears are at the door, did you leave the garbage open?
