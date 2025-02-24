@@ -12,7 +12,7 @@ We are assuming that the investment will be enough to run the required hardware 
 
 The company plans to implement a robust data strategy to ensure the privacy and security of user data. This includes encrypting all data at rest and in transit, implementing strict access controls, and establishing data retention policies to ensure that data is only kept for as long as necessary and is securely deleted when no longer needed. The company will also ensure that no copyrighted material is used without proper authorization, maintaining compliance with intellectual property laws. The goal is to create a secure and compliant environment that protects user data while enabling the students to leverage GenAI resources effectively.
 
-###  Considerations 
-The company is considering using open-source software to reduce costs and increase flexibility. This includes using open-source machine learning frameworks, databases, and other tools to build and deploy GenAI resources. To do so, DeepSeek AI will be considered since it can run on-premises and using low
+### Considerations
 
-https://huggingface.co/deepseek-ai/DeepSeek-R1
+The company is considering using open-source software to reduce costs and increase flexibility. This includes using open-source machine learning frameworks, databases, and other tools to build and deploy GenAI resources. To do so, GPT-4o will be considered since it can run on-premises and is integrated with Visual Studio Code. This will allow the company to leverage the power of GPT-4o while keeping costs predictable and within budget.
+
