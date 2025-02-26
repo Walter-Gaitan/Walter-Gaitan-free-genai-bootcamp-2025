@@ -14,6 +14,10 @@ This project is designed to help Spanish speakers practice constructing sentence
 
 To get started with the project, I will document my results using different AI models.
 
+- [ChatGPT](./chatgpt/README.md)
+- [Meta AI](./meta-ai/README.md)
+- [Perplexity](./perplexity/README.md)
+
 ## Requirements
 
 - They all need to have a free tier
