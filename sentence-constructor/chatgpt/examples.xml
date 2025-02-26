@@ -1,71 +1,71 @@
 <example>
     <user:input>
-        Bears are at the door, did you leave the garbage out?
+        The bears are at the door, did you leave the garbage outside?
     </user:input>
     <score>4</score>
     <score_reasons>
-    - BAD: in the vocabulary table it did not show the japanese characters, the cells are just blank
-    - BAD: the beginner sentence is uncessary, should jsut start showing the vocabulary table
-    - BAD: In the clues we should not provide the polite form of verbs, because the student needs to figure that out.
-    - BAD: The sentence structure says too much we really want something that is conceptual like this: [Location] [Subject] [Verb], [Object] [Verb-past]?
+    - BAD: The sentence is correct, but the student did not use the vocabulary table
+    - BAD: The beginner sentence is unnecessary, it should start by showing the vocabulary table
+    - BAD: In the hints, we should not provide the polite form of the verbs, because the student needs to discover it.
+    - BAD: The sentence structure says too much, we really want something conceptual like this: [Location] [Subject] [Verb], [Object] [Past-verb]?
     </score_reasons>
     <assistant:output>
-    Let's break down the sentence into smaller parts. Here's a possible table of vocabulary to get you started:
+    Let's break down the sentence into smaller parts. Here is a possible vocabulary table to start with:
+    | Spanish | English | Phonetic      |
+    |---------|---------|---------------|
+    | osos    | bears   | bers          |
+    | puerta  | door    | dor           |
+    | basura  | garbage | gar-bech     |
+    | dejar   | leave   | liv           |
 
-    | Japanese | Romaji | English
-    |          | kuma	| bear |
-    |          | tobira | door |
-    |          | gomi	| garbage |
-    |          | noko	| leave behind |
+    Now, let's think about the structure of the sentence. We have two clauses: "The bears are at the door" and "did you leave the garbage outside?".
+    For the first clause, we can use the verb "estar" which means "to be present". We will need to figure out the correct form of the verb to use.
+    For the second clause, we can use the verb "dejar" which is a more polite way of saying "leave behind". Again, we will need to figure out the correct form of the verb to use.
 
-    Now, let's think about the sentence structure. We have two clauses: "Bears are at the door" and "did you leave the garbage out?".
-    For the first clause, we can use the verb (aru) which means "to exist" or "to be present". We'll need to figure out the correct form of the verb to use.
-    For the second clause, we can use the verb (nokosu) which is a more polite way of saying "to leave behind". Again, we'll need to figure out the correct form of the verb to use.
+    Here is a possible sentence structure:
 
-    Here's a possible sentence structure:
+    [Clause 1: The bears are at the door]
+    [Subject] are at [Location]
+    [Clause 2: did you leave the garbage outside?]
+    [Verb] the [Object] outside?
 
-    [Clause 1: Bears are at the door]
-    [Subject] wa [Location] ni [Verb] desu
-    [Clause 2: did you leave the garbage out?]
-    [Verb] masu ka
-
-    Your turn! Can you try to fill in the blanks using the vocabulary and sentence structure provided?
+    Your turn! Can you try to fill in the blanks using the provided vocabulary and sentence structure?
     </assistant:output>
 </example>
 
 <example>
     <user:input>
-        Bears are at the door, did you leave the garbage out?
+        The bears are at the door, did you leave the garbage outside?
     </user:input>
-    <score>10/score>
+    <score>10</score>
     <score_reasons>
-    - GOOD: Doesn't provide verbose text at the start, and shows vocabulary immediatly
-    - GOOD: Shows conceptual sentence strucutre
-    - GOOD: Clues don't give away any of the tense of conjugations
+    - GOOD: Does not provide extensive text at the beginning and shows the vocabulary immediately
+    - GOOD: Shows the conceptual structure of the sentence
+    - GOOD: The hints do not reveal any of the conjugation tenses
     </score_reasons>
     <assistant:output>
-    Cheatsheet:
-    | Word | Japanese | Type |
-    |------|----------|------|
-    | bear | 熊（くま） | Noun |
-    | door | ドア | Noun |
-    | garbage | ゴミ | Noun |
-    | to be (location) | いる | Intransitive Ichidan Verb |
-    | to leave | 出す（だす） | Transitive Godan Verb |
+    Cheat sheet:
+    | Spanish | English | Phonetics           | Type |
+    |---------|---------|---------------------|------|
+    | oso     | bear    | bers                | Noun |
+    | puerta  | door    | dor                 | Noun |
+    | basura  | garbage | gar-bech           | Noun |
+    | estar   | to be (location) | eh-star    | Intransitive Verb |
+    | dejar   | leave   | liv                 | Transitive Verb |
 
     Sentence structure:
-    [Location] [Subject] [Verb], [Object] [Verb-past]?
+    [Location] [Subject] [Verb], [Object] [Past-verb]?
 
     Considerations:
     - This is a compound sentence with two parts connected by a comma
-    - The first part is stating a location where something exists
+    - The first part is indicating a location where something exists
     - The second part is asking about a past action
 
     Possible next steps:
-    - attempt an answer
-    - ask clues about location marking
-    - ask clues about how to connect two sentences
-    - ask clues about question formation
-    - ask clues about verb conjugation
+    - try a response
+    - ask for hints about location marking
+    - ask for hints about connecting two sentences
+    - ask for hints about forming questions
+    - ask for hints about verb conjugation
     </assistant:output>
 </example>
